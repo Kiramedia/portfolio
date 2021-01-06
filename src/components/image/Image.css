@@ -31,7 +31,7 @@ img.fit{
 }
 
 img.fill{
-    width: auto;
+    width: 100%;
     height: 100%;
     object-position: center;
 }
