@@ -1,0 +1,128 @@
+.k-modal{
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    padding: 4rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.k-card-back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.k-card-modal{
+    position: relative;
+    width: 100%;
+    min-height: 100%;   
+    background: #EEEEEE;
+    z-index: 1001;
+    padding: 3rem;
+    border-radius: 5px;
+}
+
+.k-card-modal button{
+    position: absolute;
+    right: .5rem;
+    top: .5rem;
+    border: none;
+    font-size: 1.5rem;
+    outline: none;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.k-card-modal button:hover{
+    color: #DB4616;
+}
+
+.k-card-info{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+
+.k-card-info iframe{
+    width: 640px;
+    height: 360px;
+    
+}
+
+.k-card-description{
+    max-width: 50rem;
+    margin: 0 1rem;
+}
+
+.k-bold{
+    font-weight: 700;
+}
+
+.k-screenshots-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.k-screen-image{
+    margin: 1rem;
+    width: 20rem;
+    height: 10rem;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.k-screen-image:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.k-get-link{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.k-get-link a{
+    display: flex;
+    align-items: center;
+    margin: 0 .5rem;
+    font-weight: 700;
+    color: #00B2FF;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .k-modal{
+        padding: 2rem;
+    }
+
+    .k-card-info{
+        flex-wrap: wrap;
+    }
+
+    .k-card-description{
+        margin: 1rem 0rem;
+    }
+
+    .k-card-modal{
+        padding: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .k-modal{
+        padding: 1rem;
+    }
+
+    .k-screenshots-container{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,22 @@
+.k-focus-item{
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: .5rem 1rem;
+}
+
+.k-focus-item h1{
+    margin: .5rem 0;
+}
+
+.k-focus-item p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .k-focus-item{
+        width: 9rem;
+    }
+}

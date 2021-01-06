@@ -1,0 +1,28 @@
+.k-abilitie-attribute{
+    margin: .25rem 0;
+}
+
+.k-attribute-bar{
+    height: .5rem;
+    width: 100%;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+.k-attribute-percent{
+    height: .5rem;
+    border-radius: 10px;
+}
+
+.k-attribute-percent.primary-color{
+    background: #00B2FF;
+}
+
+.k-attribute-percent.secundary-color{
+    background: #DB4616;
+}
+
+.k-abilitie-info{
+    display: flex;
+    justify-content: space-between;
+}

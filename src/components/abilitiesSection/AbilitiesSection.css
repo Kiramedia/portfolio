@@ -1,0 +1,6 @@
+.k-abilities-section{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}

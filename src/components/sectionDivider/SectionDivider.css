@@ -1,0 +1,24 @@
+.k-section-divider{
+    width: 29rem;
+    height: 3.8rem;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+    align-self: center;
+    margin: 2rem 0 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.k-section-divider.primary-color{
+    background: #00B2FF;
+}
+
+.k-section-divider.secundary-color{
+    background: #DB4616;
+}
+
+@media only screen and (max-width: 600px) {
+    .k-section-divider{
+        width: 20rem;
+    }
+}

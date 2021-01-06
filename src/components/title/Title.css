@@ -1,0 +1,57 @@
+h1{
+    margin: 0;
+    font-family: "Quattrocento Sans";
+}
+
+.base-color{
+    color: #5D5D5D;
+}
+
+.primary-color{
+    color: #00B2FF;
+}
+
+.secundary-color{
+    color: #DB4616;
+}
+
+.white{
+    color: white;
+}
+
+h1.small{
+    font-size: 1.5rem;
+}
+
+h1.medium{
+    font-size: 2rem;
+}
+
+h1.large{
+    font-size: 4rem;
+}
+
+@media only screen and (max-width: 1350px) {
+    h1.small{
+        font-size: 1.25rem;
+    }
+    
+    h1.medium{
+        font-size: 1.75rem;
+    }
+    
+    h1.large{
+        font-size: 2.75rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    h1.medium{
+        font-size: 1.5rem;
+    }
+    
+    h1.large{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,10 @@
+.k-social-icon{
+    margin: 0 .5rem;
+}
+
+@media only screen and (max-width: 1350px) {
+    .k-social-icon img{
+        height: 2.5rem;
+        width: auto;
+    }
+}

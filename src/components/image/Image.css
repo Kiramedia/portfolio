@@ -1,0 +1,100 @@
+
+.full-container{
+    width: 100%;
+    height: 100%;
+}
+
+img.small{
+    width: auto;
+    height: 5.25rem;
+}
+
+img.medium{
+    width: auto;
+    height: 20rem;
+}
+
+img.medium-square{
+    height: 20rem;
+    width: 20rem;
+}
+
+img.large{
+    width: auto;
+    height: 30rem;
+}
+
+img.fit{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img.fill{
+    width: auto;
+    height: 100%;
+    object-position: center;
+}
+
+img.circle{
+    clip-path: circle(50% at 50% 50%);
+}
+
+.profile{
+    position: relative;
+}
+
+.profile img{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+
+.profile::before{
+    position: absolute;
+    width: 19.75rem;
+    height: 19.75rem;
+    border: 4px solid white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    top: -.75rem;
+    left: -.75rem;
+    z-index: 10;
+    content: "";
+}
+
+@media only screen and (max-width: 1350px) {
+    img.medium-square{
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .profile::before{
+        position: absolute;
+        width: 14.75rem;
+        height: 14.75rem;
+        border: 4px solid white;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        top: -.75rem;
+        left: -.75rem;
+        z-index: 10;
+        content: "";
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    img.medium-square{
+        height: 18rem;
+        width: 18rem;
+    }
+
+    .profile::before{
+        width: 17.75rem;
+        height: 17.75rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    img.small{
+        width: auto;
+        height: 4.25rem;
+    }
+}

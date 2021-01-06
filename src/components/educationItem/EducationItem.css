@@ -1,0 +1,110 @@
+.k-education-item{
+    display: flex;
+    align-items: center;
+    width: 30rem;
+}
+
+.primary-color.k-education-item::after{
+    position: absolute;
+    content: "";
+    width: 2rem;
+    min-width: 2rem;
+    height: 2rem;
+    min-height: 2rem;
+    border-radius: 10rem;
+    background: #00B2FF;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.secundary-color.k-education-item::after{
+    position: absolute;
+    content: "";
+    width: 2rem;
+    min-width: 2rem;
+    height: 2rem;
+    min-height: 2rem;
+    border-radius: 10rem;
+    background: #DB4616;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.item-center::before{
+    position: absolute;
+    content: "";
+    width: .25rem;
+    min-width: .25rem;
+    height: 23rem;
+    z-index: -1000;
+    min-height: 2rem;
+    background:  #5D5D5D;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.k-education-image-container{
+    margin: 1rem;
+    width: 9rem;
+    height: 9rem;
+    min-width: 9rem;
+    background: white;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.k-education-image-container img{
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+.k-education-info{
+    margin: 0 2rem;
+}
+
+.flex-invert{
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}
+
+.flex-invert h1{
+    text-align: right;
+}
+
+@media only screen and (max-width: 1000px) {
+    
+    .primary-color.k-education-item::after{
+        content: none;
+    }
+
+    .secundary-color.k-education-item::after{
+        content: none;
+    }
+
+    .item-center::before{
+        content: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .k-education-item{
+        width: 23rem;
+    }
+    
+    .k-education-image-container{
+        width: 7rem;
+        height: 7rem;
+        min-width: 7rem;
+    }
+
+    .k-education-image-container img{
+        height: 4.5rem;
+        width: 4.5rem;
+    }
+}

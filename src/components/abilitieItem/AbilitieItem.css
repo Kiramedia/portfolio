@@ -1,0 +1,46 @@
+.k-abilitie-item{
+    height: 27.5rem;
+    width: 25rem;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    position: relative;
+    margin: 1rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+}
+
+
+.primary-color.k-abilitie-item::after{
+    content: "";
+    height: 0.7rem;
+    width: 13.5rem;
+    background: #00B2FF;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -0.7rem;
+}
+
+.secundary-color.k-abilitie-item::after{
+    content: "";
+    height: 0.7rem;
+    width: 13.5rem;
+    background:  #DB4616;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -0.7rem;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .k-abilitie-item{
+        height: auto;
+    }
+    
+}

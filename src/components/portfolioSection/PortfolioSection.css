@@ -1,0 +1,8 @@
+.k-portfolio-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    flex-wrap: wrap;
+    max-width: 100rem;
+    margin: auto;
+}
